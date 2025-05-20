@@ -1,0 +1,109 @@
+{
+  "SettingModel": {
+    "version": 5,
+    "skel": "CH0282_home.skel",
+    "atlas": "CH0282_home.atlas",
+    "eyeTouch": "Touch_Me",
+    "idol": "Idle_01",
+    "x": 670,
+    "y": 880,
+    "scale": 0.45,
+    "angle": 0,
+    "bgmVolume": 0.2,
+    "talkVolume": 0.5,
+    "showTouch": false,
+    "panelDisplay": false,
+    "showTalkDialog": true,
+    "textX": 770,
+    "textY": 525,
+    "textSize": 16,
+    "autoTalk": 0,
+    "resolution": "2k",
+    "startAnimation": "Start_Idle_01",
+    "startScene": true,
+    "language": "Bahasa Indonesia"
+  },
+  "EventInfos": [
+    {
+      "BoneName": "Body2",
+      "Width": 1500,
+      "Height": 800,
+      "Animations": [
+        "Talk_01_M",
+        "Talk_02_M",
+        "Talk_03_M",
+        "Talk_04_M",
+        "Talk_05_M"
+      ],
+      "AnimationIndex": 10,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": true
+    },
+
+    {
+      "BoneName": "bone",
+      "Width": 800,
+      "Height": 500,
+      "Animations": ["Pat_01_M"],
+      "AnimationIndex": 20,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": false
+    }
+  ],
+  "AnimationsTexts": {
+    "中文": {
+      "Sound/CH0282_MemorialLobby_1_1": "……啊！老师！等等！",
+      "Sound/CH0282_MemorialLobby_1_2": "这样直接给，有点……",
+      "Sound/CH0282_MemorialLobby_2_1": "那个，我用脚夹住了，所以……",
+      "Sound/CH0282_MemorialLobby_2_2": "这个我来吃，老师您吃这个吧……！",
+      "Sound/CH0282_MemorialLobby_3_1": "……啊。",
+      "Sound/CH0282_MemorialLobby_3_2": "这是我已经吃过的……",
+      "Sound/CH0282_MemorialLobby_4_1": "不，不是那个意思！我不是那个意思……！",
+      "Sound/CH0282_MemorialLobby_4_2": "还是这个……不是！",
+      "Sound/CH0282_MemorialLobby_5_1": "我真的没有那个意思……！",
+      "Sound/CH0282_MemorialLobby_5_2": "不管给哪一个……呜……",
+      "Sound/CH0282_MemorialLobby_5_3": "我该怎么办……！"
+    },
+    "日本語": {
+      "Sound/CH0282_MemorialLobby_1_1": "……あっ！先生！ま、待ってくれ！",
+      "Sound/CH0282_MemorialLobby_1_2": "このまま渡すのは、ちょっと……！",
+      "Sound/CH0282_MemorialLobby_2_1": "その、私が脚で挟んでしまったもの、だから……",
+      "Sound/CH0282_MemorialLobby_2_2": "これは私が食べるから、先生はこっちを……！",
+      "Sound/CH0282_MemorialLobby_3_1": "……あ。",
+      "Sound/CH0282_MemorialLobby_3_2": "これは私の食べかけ……",
+      "Sound/CH0282_MemorialLobby_4_1": "ち、違う！そういう意味じゃなくて……！",
+      "Sound/CH0282_MemorialLobby_4_2": "やっぱこっちの…………！では、なくて！",
+      "Sound/CH0282_MemorialLobby_5_1": "本当に、そんなつもりは……！",
+      "Sound/CH0282_MemorialLobby_5_2": "ど、どちらを渡しても……うう……",
+      "Sound/CH0282_MemorialLobby_5_3": "わ、私はどうすれば……！"
+    },
+    "Bahasa Indonesia": {
+      "Sound/CH0282_MemorialLobby_1_1": "…Ah! Sensei! Tunggu dulu dong!",
+      "Sound/CH0282_MemorialLobby_1_2": "Ngasihnya gini langsung tuh... agak gimana gitu...",
+      "Sound/CH0282_MemorialLobby_2_1": "Itu... tadi sempat aku jepit pakai kaki, jadi...",
+      "Sound/CH0282_MemorialLobby_2_2": "Yang ini aku aja yang makan, kamu ambil yang satu lagi ya, Sensei...!",
+      "Sound/CH0282_MemorialLobby_3_1": "…Ah.",
+      "Sound/CH0282_MemorialLobby_3_2": "Itu udah aku gigit sih sebenernya...",
+      "Sound/CH0282_MemorialLobby_4_1": "N-nggak! Bukan maksudku kayak gitu...!",
+      "Sound/CH0282_MemorialLobby_4_2": "Kayaknya yang ini aja… eh bukan maksudnya begitu juga!",
+      "Sound/CH0282_MemorialLobby_5_1": "Aku serius, aku nggak ada maksud aneh kok...!",
+      "Sound/CH0282_MemorialLobby_5_2": "Mau kasih yang mana pun... duh...",
+      "Sound/CH0282_MemorialLobby_5_3": "Aku harus gimana dong...!"
+    },
+    "Tiếng Việt": {
+      "Sound/CH0282_MemorialLobby_1_1": "...Ờm! Sensei! Xin thầy hẵng ăn!",
+      "Sound/CH0282_MemorialLobby_1_2": "Nếu em đưa cho thầy cái này, có lẽ.....",
+      "Sound/CH0282_MemorialLobby_2_1": "À thì, em lỡ làm rơi nó vào đôi chân của em, nên là....",
+      "Sound/CH0282_MemorialLobby_2_2": "Còn đây là cái em đã ăn qua, nên thầy hãy cứ ăn cái này đi....!",
+      "Sound/CH0282_MemorialLobby_3_1": "Ah....",
+      "Sound/CH0282_MemorialLobby_3_2": "Đây là cái em đã ăn dở...",
+      "Sound/CH0282_MemorialLobby_4_1": "Kh-không phải! Em không có ý đó....!",
+      "Sound/CH0282_MemorialLobby_4_2": "Quả nhiên em nên ăn cái.... ahhmm...! Nhưng, cũng không hẳn!",
+      "Sound/CH0282_MemorialLobby_5_1": "Em thật sự, không có cố ý đâu....!",
+      "Sound/CH0282_MemorialLobby_5_2": "Nhưng, bất kể đưa cái nào cũng....!",
+      "Sound/CH0282_MemorialLobby_5_3": "Uhmm, em biết phải làm sao đây.....!"
+    }
+  }
+}
